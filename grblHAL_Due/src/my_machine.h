@@ -95,4 +95,4 @@
 //
 
 /**/
-#define N_ABC_MOTORS 3
+#define N_ABC_MOTORS 0
