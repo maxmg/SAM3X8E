@@ -95,4 +95,5 @@
 //
 
 /**/
-#define N_ABC_MOTORS 0
+#define N_ABC_MOTORS 1
+#define DEFAULT_HOMING_CYCLE_0 (Z_AXIS_BIT|A_AXIS) // First move Z,A to clear workspace.
