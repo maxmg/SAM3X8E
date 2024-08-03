@@ -29,12 +29,12 @@
 //#define BOARD_PROTONEER
 //#define BOARD_CMCGRATH
 //#define BOARD_RADDS_16   // NOTE: untested!!
-//#define BOARD_MY_MACHINE // Add my_machine_map.h before enabling this!
+#define BOARD_MY_MACHINE // Add my_machine_map.h before enabling this!
 
 // Configuration
 // Uncomment to enable.
 
-//#define USB_SERIAL_CDC       1 // Use native USB port for communication.
+#define USB_SERIAL_CDC       1 // Use native USB port for communication.
 //#define BLUETOOTH_ENABLE     2 // Set to 2 for HC-05 module. Requires and claims one auxillary input pin.
 // Spindle selection:
 // Up to four specific spindle drivers can be instantiated at a time
@@ -65,7 +65,7 @@
 // Optional control signals:
 // These will be assigned to aux input pins. Use the $pins command to check which pins are assigned.
 // NOTE: If not enough pins are available assignment will silently fail.
-//#define PROBE_ENABLE            0 // Default enabled, remove comment to disable probe input.
+#define PROBE_ENABLE            0 // Default enabled, remove comment to disable probe input.
 //#define SAFETY_DOOR_ENABLE      1
 //#define MOTOR_FAULT_ENABLE      1
 //#define MOTOR_WARNING_ENABLE    1
@@ -95,3 +95,5 @@
 //
 
 /**/
+#define N_ABC_MOTORS 1
+#define DEFAULT_HOMING_CYCLE_0 (Z_AXIS_BIT|A_AXIS) // First move Z,A to clear workspace.
