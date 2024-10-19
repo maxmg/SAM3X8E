@@ -29,11 +29,12 @@
 #define _WIRING_CONSTANTS_
 
 #include "Arduino.h"
-#include "grbl/hal.h"
 
 #ifndef OVERRIDE_MY_MACHINE
 #include "my_machine.h"
 #endif
+
+#include "grbl/hal.h"
 
 #if defined(MCP3221_ENABLE)
 #define I2C_ENABLE 1
