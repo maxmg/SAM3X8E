@@ -98,3 +98,5 @@
 #define N_AXIS 4
 #define N_ABC_MOTORS 1
 #define DEFAULT_HOMING_CYCLE_0 (A_AXIS_BIT|Z_AXIS_BIT) // First move Z,A to clear workspace.
+#define DEFAULT_HOMING_CYCLE_1 (X_AXIS_BIT) // Then move X to find switches
+#define DEFAULT_HOMING_CYCLE_2 (Y_AXIS_BIT) // Then move Y to find switches
