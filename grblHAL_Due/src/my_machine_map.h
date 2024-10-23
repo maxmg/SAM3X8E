@@ -54,7 +54,8 @@
 #define X_LIMIT_PIN         4   // Due Digital Pin 14
 
 #define Y_LIMIT_PORT        PIOA
-#define Y_LIMIT_PIN         13  // Due Digital Pin 16
+// #define Y_LIMIT_PIN         13  // Due Digital Pin 16 -- fried ?
+#define Y_LIMIT_PIN         5   // Due Digital Pin 37
 
 #define Z_LIMIT_PORT        PIOA
 #define Z_LIMIT_PIN         11  // Due Digital Pin 18
