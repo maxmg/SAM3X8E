@@ -19,4 +19,5 @@
   along with Grbl.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include "my_machine.h"
 #include "grbl/grbllib.h"
